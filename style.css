@@ -1,25 +1,42 @@
-#answer{
-    width: 320px;
-    border-radius: 13px;
-    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+.container {
+    margin: auto;
 }
-.calc{
-    background: rgb(200, 200, 200);
-    padding: 10px;
-    display: inline-block;
-    border-radius: 20px;
-}
-input{
-    font-size: 30px;
-    width: 70px;
-    height: 60px;
-    margin: 5px;
+
+#answer {
+    width: 300px;
     border-radius: 10px;
-    border: none;
-    box-shadow: 5px 5px 3pc grey, -5px -5px 3px white;
-    background: rgb(200, 200, 200);
+}
+
+input {
+    font-size: 30px;
+    width: 65px;
+    height: 55px;
+    margin: 5px;
+    border: 0px solid;
+    border-radius: 8px;
+    background: rgb(230, 230, 230);
     outline: none;
 }
-    input:hover{
-    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+
+.calc {
+    background: rgb(220, 220, 220);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+input {
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px white;
+}
+
+input:hover {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+
+#answer {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+
+.calc {
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
 }
